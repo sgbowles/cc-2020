@@ -30,7 +30,9 @@ public:
 
     const std::string GetTeamName() const;
 
-    void AddPlayerToRoster();
+    void AddPlayerToRoster(Position position, Player *player);
+
+    void PrintTeamRoster();
 
 private:
     std::string team_name_;
