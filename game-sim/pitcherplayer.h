@@ -11,7 +11,7 @@ public:
     ~PitcherPlayer();
 
     void SetPitcherRating(SkillType type, const unsigned int &rate);
-    const unsigned int &GetPitcherRating(SkillType &type) const;
+    const unsigned int &GetPitcherRating(const SkillType &type) const;
 
 private:
     Ability* ability_rating_;

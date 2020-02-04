@@ -39,7 +39,7 @@ void PitcherPlayer::SetPitcherRating(SkillType type, const unsigned int &rate)
     }
 }
 
-const unsigned int &PitcherPlayer::GetPitcherRating(SkillType &type) const
+const unsigned int &PitcherPlayer::GetPitcherRating(const SkillType &type) const
 {
     if (!ability_rating_)
         return ABILITY_ERROR_VALUE_;
